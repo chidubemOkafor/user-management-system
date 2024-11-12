@@ -10,7 +10,6 @@ A user management system built with next js, TypeScript, and Tailwind CSS
 - [Project Structure](#project-structure)
 - [Configuration](#configuration)
 - [Debugging Report](#debugging-report)
-- [License](#license)
 
 ---
 
@@ -24,13 +23,13 @@ cd user-management-system
 npm install
 ```
 
-##usage
+## usage
 
 ```bash
 npm run dev
 ```
 
-##features
+## features
 
 - User Creation: Add new users with customizable attributes like username, status, and role.
 - User Update: Edit existing user details, including names, status, and roles.
@@ -38,18 +37,18 @@ npm run dev
 - State Management: Local state management with React Hooks.
 - Data Persistence: Persists user data in local storage for offline access.
 
-##project-structure
+## project-structure
 
 - components/: Reusable React components, including Sidebar, Navbar, and user input forms.
 - pages/: Main app pages for user management.
 - hooks/: Custom React hooks for specific logic, such as handling user state.
 - utils/: Utility functions for handling data transformations and validations.
 
-##configuration
+## configuration
 
 - Dependencies: Key dependencies include react-toastify for notifications, react-icons for icons, and styled-jsx for styling.
 
-##debugging-report
+## debugging-report
 
 1. ERESOLVE Dependency Conflict Error
 
